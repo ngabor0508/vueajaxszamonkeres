@@ -1,29 +1,29 @@
-# [Név]
+# [Nagy Gábor]
 
 ## Hogyan kezdj neki?
 
-1. Jelentkezz be a GitHub szolgáltatásába a böngésződben és a VSCode szerkesztőben
-2. A böngészőben forkold ezt a repository-t
-3. A Settings > Pages oldalon a Source értékét állítsd gh-pages-re és mentsd el (Save)
-4. Clone-ozd a saját(!) repodat a VSCode-ba
-5. Írd át a Readme.md elején a [Név] részt a saját nevedre, majd commitolj és pusholj.
-6. Telepítsd a függőségeket
+1. Jelentkezz be a GitHub szolgáltatásába a böngésződben és a VSCode szerkesztőben - kész 
+2. A böngészőben forkold ezt a repository-t - kész
+3. A Settings > Pages oldalon a Source értékét állítsd gh-pages-re és mentsd el (Save) - kész
+4. Clone-ozd a saját(!) repodat a VSCode-ba - kész
+5. Írd át a Readme.md elején a [Név] részt a saját nevedre, majd commitolj és pusholj. - kész
+6. Telepítsd a függőségeket - kész
 ```
   npm install
 ```
-7. Indítsd el a fejlesztői szervert
+7. Indítsd el a fejlesztői szervert - kész
 ```
   npm run serve
 ```
-8. Indíts egy új VSCode vagy terminal ablakot.
-9. Clone-ozd egy másik könyvtárba a backendet: https://github.com/hgabor/MuzeumBackend
-10. Az ott leírtaknak megfelelően indítsd el, hogy elérhető legyen a kliens kódod számára.
+8. Indíts egy új VSCode vagy terminal ablakot. - kész
+9. Clone-ozd egy másik könyvtárba a backendet: https://github.com/hgabor/MuzeumBackend - kész
+10. Az ott leírtaknak megfelelően indítsd el, hogy elérhető legyen a kliens kódod számára. - kész
 
-## Hogyan dolgozz?
+## Hogyan dolgozz? - kész
 
 A főbb pontokon commitolj és pushold fel a változtatásokat. Ezt érdemes minél sűrűbben megtenni, hisz így adod majd be a feladatot.
 
-## Hogyan fejezd be?
+## Hogyan fejezd be? - kész
 
 Add be a repod linkjét. Figyelj oda, hogy az utolsó commit idejét fogjuk nézni.
 
@@ -31,20 +31,20 @@ Add be a repod linkjét. Figyelj oda, hogy az utolsó commit idejét fogjuk néz
 
 Készíts alkalmazást, ami a MuzeumBackend szobraineak (statues) adminisztrációjára alkalmas. Az alábbiak szerint:
 
-1. Legyen egy lista, amiben megjelennek az adatok az adatbázisból letöltve. A listának legyen fejléce és a fejlécben a következő oszlopok: Személy, Magasság, Ár, Műveletek. Az oszlopokban a nekik megfelelő adatok jelenjenek meg(person, height, price), valamint a Művelet oszlopban legyen egy Törlés és Szerkesztés gomb. (2p)
+1. Legyen egy lista, amiben megjelennek az adatok az adatbázisból letöltve. A listának legyen fejléce és a fejlécben a következő oszlopok: Személy, Magasság, Ár, Műveletek. Az oszlopokban a nekik megfelelő adatok jelenjenek meg(person, height, price), valamint a Művelet oszlopban legyen egy Törlés és Szerkesztés gomb. (2p) - kész
 
-2. A lista alján legyen egy új elem létrehozására alkalmas űrlap Mentés és Mégse gombbal. (2p)
+2. A lista alján legyen egy új elem létrehozására alkalmas űrlap Mentés és Mégse gombbal. (2p) - kész
 
-3. A Törlés gomb megnyomására törlődjön az adott rekord az adatbázisból, valamint frissüljön a lista. (2p)
+3. A Törlés gomb megnyomására törlődjön az adott rekord az adatbázisból, valamint frissüljön a lista. (2p) - kész
 
-4. A szerkesztő űrlap segítségével lehesen felvenni új rekordot az adatbázisba. A lista frissüljön. (2p)
+4. A szerkesztő űrlap segítségével lehesen felvenni új rekordot az adatbázisba. A lista frissüljön. (2p) - kész
 
-5. A Szerkesztés gomb megnyomására töltődjön be az adott rekord az adatbázisból az űrlapba, majd a Mentés gomb megnyomására tárolódjon el a változtatás az adatbázisban és törlődjön az űrlap. A Mégse gomb megnyomására törlődjön az űralp. Figyelj arra, hogy a mégse gomb megnyomása után az új rekord létrehozása működjön. (10p)
+5. A Szerkesztés gomb megnyomására töltődjön be az adott rekord az adatbázisból az űrlapba, majd a Mentés gomb megnyomására tárolódjon el a változtatás az adatbázisban és törlődjön az űrlap. A Mégse gomb megnyomására törlődjön az űralp. Figyelj arra, hogy a mégse gomb megnyomása után az új rekord létrehozása működjön. (10p) - kész
 
-6. Figyelj oda, hogy izlésesen legyen formázva az oldal. (1p)
+6. Figyelj oda, hogy izlésesen legyen formázva az oldal. (1p) - kész
 
 7. Figyelj oda, hogy értelmes commit üzenetek legyenek. Értelmesnek tekintjük a commit üzenetet, ha a "Miért?" kérdésre válaszol. (1p)
-
+ 
 8. Amint látod a listázást, új létrehozást, módosítást jól elkülöníthető HTML és JavaScript kódokkal rendelkeznek. Készíts három komponenst. (+5p)
     1. Táblázat a rekordok listájával. Innen elérhető a szerkesztés, törlés és az új létrehozás.
     2. Űrlap, amivel új entitást lehet létrehozni
