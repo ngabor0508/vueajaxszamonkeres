@@ -1,3 +1,6 @@
+<style>
+  @import './assets/styles/main.css';
+</style>
 <template>
   <div id="app">
     <table class="table_one">
